@@ -4,4 +4,4 @@ from sqlalchemy.orm import sessionmaker
 
 engine = create_engine('sqlite:///comunidad.sqlite')
 Session = sessionmaker(bind=engine)
-Base = declarative_base
+Base = declarative_base()
